@@ -14,4 +14,9 @@ public class HelloController {
     public String index(@RequestParam("name") String name) {
         return "hello, " + name + ", this is second provider";
     }
+
+    @RequestMapping("/findAll")
+    public String findAll() {
+        return "this is findAll service, just second provider";
+    }
 }
