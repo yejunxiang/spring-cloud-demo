@@ -10,6 +10,12 @@ feign:
   hystrix:
     enabled: true
 
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 20000
+
+
+
+
 spring:
   main:
     allow-bean-definition-overriding: true
