@@ -33,7 +33,8 @@ public class HelloController {
     @HystrixCommand(fallbackMethod = "findAllFallback")
     @RequestMapping(value = "/findAll", method = RequestMethod.GET)
     public String findAll() throws InterruptedException {
-        Thread.sleep(8000);
+        // 休眠30秒  模拟熔断处理
+//        Thread.sleep(30000);
         return findAllService.findAll();
     }
 
