@@ -1,4 +1,4 @@
-package com.example.cloudprovider8001;
+package com.example.cloudprovider8003;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @EnableEurekaClient
 @SpringBootApplication
-public class CloudProvider8002Application {
+public class CloudProvider8001Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudProvider8002Application.class, args);
+        SpringApplication.run(CloudProvider8001Application.class, args);
     }
 
 }

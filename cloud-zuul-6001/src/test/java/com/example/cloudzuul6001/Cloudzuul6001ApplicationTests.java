@@ -1,4 +1,4 @@
-package com.example.cloudprovider8001;
+package com.example.cloudzuul6001;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CloudProvider8001ApplicationTests {
+public class Cloudzuul6001ApplicationTests {
 
     @Test
     public void contextLoads() {
     }
 
 }
-
